@@ -26,9 +26,9 @@ Artifacts: Automatically saving the best model weights for deployment.
 2. Deployment & API Access  
 The model is hosted on Hugging Face Spaces. While it provides a user-friendly Gradio interface, it also functions as a REST API.  
 
-To call the API programmatically:  
+#### To call the API programmatically:  
 
-Python  
+#### Python  
 from gradio_client import Client  
 
 client = Client("Adrita03/QnA_with_context")  
